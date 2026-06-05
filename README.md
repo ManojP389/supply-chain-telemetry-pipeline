@@ -5,6 +5,8 @@ An end-to-end, enterprise-grade **Data Engineering & Business Intelligence** pro
 This project demonstrates a complete scalable data pipeline—from Python-based shipment telemetry generation, relational data warehousing in MySQL, automated data cleansing through SQL views, and real-time visualization using Power BI.
 
 ---
+<img width="1165" height="657" alt="Screenshot 2026-06-05 172208" src="https://github.com/user-attachments/assets/e96a7213-78c0-4be4-a604-1a079f69786e" />
+---
 
 ## Project Overview
 
