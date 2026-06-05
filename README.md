@@ -341,6 +341,13 @@ Potential improvements:
 * Automated Alerting System
 
 ---
+## 🚀 Deployment & Local Setup Instructions
+
+### Prerequisites
+* **Python 3.x** (with `mysql-connector-python` or `SQLAlchemy` installed)
+* **MySQL Server** instance initialized locally
+* **Power BI Desktop** (Windows environment)
+
 
 ## License
 
