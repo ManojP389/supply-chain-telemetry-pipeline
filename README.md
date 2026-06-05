@@ -220,7 +220,7 @@ Supply-Chain-Optimization/
 ├── dashboard/
 │   └── bottleneck_console.pbit
 │
-├── .gitignore
+|
 │
 └── README.md
 ```
