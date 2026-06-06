@@ -243,7 +243,7 @@ Supply-Chain-Optimization/
 
 ---
 
-## 🚀Local Setup
+## Local Setup
 
 ### Prerequisites
 
