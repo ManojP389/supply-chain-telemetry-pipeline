@@ -343,7 +343,7 @@ Potential improvements:
 * Automated Alerting System
 
 ---
-## 🚀 Deployment & Local Setup Instructions
+## Deployment & Local Setup Instructions
 
 ### Prerequisites
 * **Python 3.x** (with `mysql-connector-python` or `SQLAlchemy` installed)
@@ -357,4 +357,4 @@ This project is intended for educational, portfolio, and demonstration purposes.
 
 ---
 
-### ⭐ If you found this project useful, consider giving the repository a star.
+### If you found this project useful, consider giving the repository a star.
