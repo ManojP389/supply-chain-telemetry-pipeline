@@ -1,6 +1,5 @@
--- =========================================================================
+
 -- 1. DATABASE & ARCHITECTURE SETUP (DDL)
--- =========================================================================
 CREATE DATABASE IF NOT EXISTS supply_chain_db;
 USE supply_chain_db;
 
@@ -38,9 +37,9 @@ CREATE TABLE fact_shipments (
     FOREIGN KEY (Route_ID) REFERENCES dim_routes(Route_ID)
 );
 
--- =========================================================================
+
 -- 2. SEED SELECTION DATA (Dimension Population)
--- =========================================================================
+
 INSERT INTO dim_vehicles (Vehicle_Type, Max_Capacity, Speed_MPH) VALUES 
 ('Box Truck', 500, 55),
 ('Delivery Van', 150, 65),
@@ -61,9 +60,9 @@ INSERT INTO dim_routes (Origin, Destination) VALUES
 ('Pune', 'Ahmedabad'),
 ('Pune', 'Bengaluru');
 
--- =========================================================================
+
 -- 3. ANALYTICAL DATA-CLEANSING & ANOMALY LOGIC VIEW
--- =========================================================================
+
 CREATE OR REPLACE VIEW v_clean_shipments AS
 SELECT 
     f.Shipment_ID,
